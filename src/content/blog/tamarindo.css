@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(#81d2c8, #e34f78);
+}
+
+.main {
+  padding: 200px 10px 0;
+  border-image-source: url("/dragon.png");
+  border-image-width: 50px;
+  border-image-outset: 50px;
+  border-image-repeat: round;
+  border-image-slice: 0 50%;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+}
+
+aside {
+  position: absolute;
+  top: 0;
+}
+
+aside:last-of-type {
+  transform: scale(-1, 1);
+  right: 0;
+}
