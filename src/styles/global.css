@@ -137,6 +137,12 @@ figcaption {
 .spoiler:hover {
   color: white;
 }
+.spoiler-image>img {
+  filter: blur(20px);
+}
+.spoiler-image:hover>img {
+  filter: blur(0px);
+}
 @media (max-width: 720px) {
   body {
     font-size: 18px;
